@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+ header {
+        font-size: 24px;
+        text-align: center;
+        padding: 8px;
+        background-color: #f0c0c0;
+        color: #333;
+    }
+
 .game-board {
     background-image: url('../images/backgroundg.png');
     background-size: 1400px 495px;
@@ -61,4 +69,5 @@
     100% {
         bottom: 0;
     }
+
 }
