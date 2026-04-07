@@ -1,5 +1,5 @@
 # 👑 MiniGame - Princess Peach ✨
-> Um minijogo interativo desenvolvido com tecnologias web, inspirado no universo da Nintendo, focado na personagem Princess Peach. O objetivo é fazer Peach desviar dos obstáculos para alcançar a pontuação máxima.
+> Um minigame interativo desenvolvido com tecnologias web, inspirado no universo da Nintendo, focado na personagem Princess Peach. O objetivo é fazer Peach desviar dos obstáculos para alcançar a pontuação máxima.
 
 ## 🎮 Demonstração
 
