@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board {
+    background-image: url('../images/backgroundg.png');
+    background-size: 1400px 495px;
+    background-repeat: no-repeat;
+   
+
+    width: 100%;
+    height: 500px;
+    border: 3px solid #333;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    /* Removido: right: -80px; left: 120px; */
+    animation: movePipe 1.5s linear infinite;
+}
+
+.peach {
+    width: 180px;
+    position: absolute;
+    bottom: 0;
+}
+
+.jump {
+   animation: jump 500ms infinite ease-out;
+}
+
+@keyframes movePipe {
+    from{
+        right: -80px;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0;
+    }
+    40% {
+        bottom: 195px;
+    }
+    50% {
+        bottom: 195px;
+    }
+    60% {
+        bottom: 195px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
